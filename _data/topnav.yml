@@ -1,0 +1,30 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    # - title: GitHub
+      # external_url: https://github.com/NCSLI-MII/m-layer.github.io
+    - title: News
+      url: /news
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: External Links
+      folderitems:
+        - title: NCSLI
+          external_url: https://ncsli.org/
+        - title: NCSLI MII (wiki)
+          external_url: http://miiknowledge.wikidot.com/start
+
+    - title: About
+      folderitems:
+        - title: The M-layer
+          url: /about.html
+        - title: Abbreviations
+          url: /mlayer_abbreviations.html
+
+
+# Copyright 2021 Google LLC
