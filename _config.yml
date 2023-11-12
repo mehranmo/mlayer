@@ -1,5 +1,4 @@
-repository: m-layer/m-layer
-#tomjoht/documentation-theme-jekyll
+repository: NCSLI-MII/mlayer.github.io
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -115,8 +114,8 @@ description: "Home site for the M-layer"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: m-layer.github.io
-baseurl: /m-layer.github.io
+url: mlayer.github.io
+baseurl: /mlayer.github.io
 
 
 github: [metadata]
