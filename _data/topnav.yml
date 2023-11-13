@@ -12,8 +12,10 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: External Links
+    - title: Links
       folderitems:
+        - title: M-layer API
+          external_url: https://api.mlayer.org
         - title: NCSLI
           external_url: https://ncsli.org/
         - title: NCSLI MII (wiki)
