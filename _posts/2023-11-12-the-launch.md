@@ -1,5 +1,5 @@
 ---
-title:  "The M-layer site"
+title:  "The M-layer website"
 categories: update
 permalink: mlayer-launch-news.html
 tags: [news]
@@ -9,6 +9,6 @@ The M-layer project is a collaboration between members of the Measurement Inform
 
 This website will provide documentation and links to the project as it develops. 
 
-Subscribe to the RSS feed on the News page to be alerted about new developments.
+Subscribe to the RSS feed on the News page to be notified about developments.
 
 {% include links.html %}

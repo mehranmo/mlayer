@@ -1,13 +1,30 @@
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "STIX"
+    },
     TeX: {
       equationNumbers: {
         autoNumber: "AMS"
+      },
+      Augment: {
+          Definitions: {
+            delimiter: { 
+                '\\llbracket': '27E6', 
+                '\\rrbracket': '27E7' 
+            }
+          }
+      },
+      Macros: {
+        xr : ['{ \\llbracket #1 \\rrbracket }', 1],
+        as : ['{ \\langle #1 \\rangle }', 1],
+        dm : ['{ [ #1 ] }', 1],
+        va : ['{ \\{ #1 \\} }', 1]
       }
     },
     tex2jax: {
       inlineMath: [ ['$','$'], ['\\(', '\\)'] ],
-      displayMath: [ ['$$','$$'] ],
+      displayMath: [ ['$$','$$'], ['\\[', '\\]'] ],
       processEscapes: true,
     }
   });

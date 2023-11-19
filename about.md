@@ -1,10 +1,12 @@
 ---
-title: "The M-Layer"
+title: "M-layer project"
 hide_sidebar: true
 toc: false
 permalink: about.html
-last_updated: Dec 1, 2023
+mathjax: true
+last_updated: Nov. 20, 2023
 ---
-The NCSLI technical committee 141, called Measurement Information Infrastructure, is developing the M-layer.
- 
+The M-layer project is coordinated by the NCSLI Measurement Information Infrastructure (MII) technical committee. 
+
+
 

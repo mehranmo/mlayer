@@ -23,7 +23,7 @@ topnav_dropdowns:
 
     - title: About
       folderitems:
-        - title: The M-layer
+        - title: The M-layer project
           url: /about.html
         - title: Abbreviations
           url: /mlayer_abbreviations.html
