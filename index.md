@@ -10,7 +10,7 @@ layout: page
 ---
 The M-layer defines digital identifiers that avoid problems of ambiguity inherent in traditional unit notation. The identifiers annotate numerical quantity values in digital records to effectively extend unit notation for digital systems. 
 
-Data annotated with M-layer identifiers has well-defined quantity kinds, giving digital representations a unit-independent character.   
+Data annotated with M-layer identifiers has well-defined quantity kinds, giving the data a unit-independent character. Conversion to alternative forms of expression is facilitated by an M-layer register of legitimate transformations, which is indexed by identifiers. 
 
 
 
