@@ -266,6 +266,7 @@ GEM
     unf_ext (0.0.9)
     unf_ext (0.0.9-x64-mingw32)
     unicode-display_width (1.8.0)
+    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -273,6 +274,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 228)
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.1.4
