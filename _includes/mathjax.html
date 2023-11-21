@@ -1,34 +1,30 @@
 <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    "HTML-CSS": { fonts: ['STIX-web'] },
-    SVG: {font: 'STIX-Web'},
-    TeX: {
-      equationNumbers: {
-        autoNumber: "AMS"
-      },
-      Augment: {
-          Definitions: {
-            delimiter: { 
-                '\\llbracket': '27E6', 
-                '\\rrbracket': '27E7' 
+MathJax.Hub.Config({
+  "HTML-CSS": { fonts: ['STIX-Web'] },
+  SVG: {font: 'STIX-Web'},
+  TeX: {
+    equationNumbers: {autoNumber: "AMS"},
+    Augment: {
+        Definitions: {
+            delimiter: {
+                '\\llbracket': '27E6',
+                '\\rrbracket': '27E7'
             }
-          }
-      },
-      Macros: {
-        xr : ['{ \\llbracket #1 \\rrbracket }', 1],
-        as : ['{ \\langle #1 \\rangle }', 1],
-        dm : ['{ [ #1 ] }', 1],
-        va : ['{ \\{ #1 \\} }', 1]
-      }
+        }
     },
+    Macros: {
+      xr : ['{ \\llbracket #1 \\rrbracket }', 1],
+      as : ['{ \\langle #1 \\rangle }', 1],
+      dm : ['{ [ #1 ] }', 1],
+      va : ['{ \\{ #1 \\} }', 1]
+    }
+  },
     tex2jax: {
       inlineMath: [ ['$','$'], ['\\(', '\\)'] ],
       displayMath: [ ['$$','$$'], ['\\[', '\\]'] ],
       processEscapes: true,
     }
-  });
+});
 </script>
-<script type="text/javascript" async 
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
